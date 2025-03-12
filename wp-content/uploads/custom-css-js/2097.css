@@ -1,0 +1,174 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+span.elementor-testimonial__title {
+    width: 60%;
+}
+recaptcha
+.recaptcha-wrapper-cus {
+width: 100%;
+max-width: 304px; /* Keep it within reCAPTCHA's standard width */
+display: flex;
+justify-content: left; /* Centers the reCAPTCHA */
+overflow: hidden;
+position: relative;
+}
+
+.recaptcha-wrapper-cus iframe {
+width: 100%;
+height: auto;
+transform: scale(1); /* Avoid unnecessary scaling */
+transform-origin: center;
+}
+.email-market-icon-box-cus {
+    padding: 53px 28px;
+    border: 1px solid #00000033;
+    border-radius: 16px;
+	background: linear-gradient(180deg, #FFF 0%, #FFF 100%);
+
+}
+.email-market-icon-box-cus:hover {
+    padding: 53px 28px;
+    border: 1px solid #0075FF;
+    border-radius: 16px;
+	background: linear-gradient(180deg, #FEFBF4 0%, #EDEFFE 100%);
+
+}
+.email-premium-leads-cus{
+	background: linear-gradient(274.28deg, #E5E7FA 0.38%, #FDFAED 85.34%);
+border-radius:16px;
+}
+.seo-services-revenu-card-cus.email-markering-process-award-cus .elementor-element-populated:hover{
+	background-color:#0075FF!important;
+}
+.seo-services-revenu-card-cus.email-markering-process-award-cus .hover-award-cus{
+	display:none;
+}
+.seo-services-revenu-card-cus.email-markering-process-award-cus .elementor-element-populated:hover .hover-award-cus{
+	display:block;
+}
+.seo-services-revenu-card-cus.email-markering-process-award-cus .elementor-element-populated:hover .simple-award-cus{
+	display:none;
+}
+.seo-services-revenu-card-cus.email-markering-process-award-cus .elementor-element-populated:hover .award-content-cus h2{
+	color:#fff;
+}
+.home-serv-cus-main.elementor-element .elementor-widget-container{
+	overflow:hidden;
+}
+.home-serv-cus-main .elementor-testimonial__text .serv-h{
+	font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.home-serv-cus-main .elementor-testimonial__text .serv-content{
+	    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+	margin-bottom: 28px;
+	    min-height: 84px;
+}
+.home-serv-cus-main .elementor-testimonial__text .serv-btn{
+	  font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 16px;
+    fill: #000000;
+    color: #000000;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #EFEFEF;
+    border-radius: 4px 4px 4px 4px;
+    padding: 10px 14px 10px 14px;
+	    background-color: #EFEFEF;
+	transition: all .3s;
+}
+.home-serv-cus-main .elementor-testimonial__text .serv-btn:hover{
+	    background-color: #0274F6;
+    color: #FFFFFF;
+    border-color: #0274F6;
+}
+.home-serv-cus-main .swiper-slide::after{
+	content: url('https://devplusmedia.com/wp-content/uploads/2025/01/Group-1321314622.png');
+  display: inline-block; /* Ensures it displays as a block if necessary */
+  width: 16px;
+  height: 16px;
+	width: 40px;
+    border-radius: 0px 0px 12px 0px;
+	position: absolute;
+    right: 0;
+    bottom: 25px;
+}
+.home-serv-cus-main.elementor-widget-testimonial-carousel .elementor-testimonial__image img {
+    height: auto;
+    width: 95%;
+
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+	
+	.home-serv-cus-main.elementor-widget-testimonial-carousel .elementor-testimonial__image img {
+    height: auto;
+    width: 24vw;
+}
+	.home-serv-cus-main .elementor-testimonial__text .serv-h{
+		min-height:48px;
+	}
+	.home-serv-cus-main .elementor-testimonial__text .serv-content{
+		min-height:105px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	.web-get-leads-col-cus {
+    padding: 25px 10px!important;
+    margin: 15px 10px!important;
+}
+	.home-serv-cus-main.elementor-widget-testimonial-carousel .elementor-testimonial__image img {
+    height: auto;
+    width: 32vw;
+}
+	.home-serv-cus-main .elementor-testimonial__text .serv-h{
+		min-height:48px;
+	}
+}
+@media (max-width: 767px) {
+.recaptcha-wrapper-cus {
+max-width: 100%; /* Ensure responsiveness */
+}
+
+.recaptcha-wrapper-cus iframe {
+transform: scale(0.9); /* Slight scaling */
+transform-origin: left;
+}
+	body {
+  overflow-x: hidden; /* Prevents horizontal scroll */
+}
+	.web-get-leads-col-cus {
+    padding: 25px 10px!important;
+    margin: 15px 10px!important;
+}
+	.home-serv-cus-main.elementor-widget-testimonial-carousel .elementor-testimonial__image img {
+    height: auto;
+    width: 88%;
+}
+}
+
+
+
+
+
+/* .swiper-slide {
+    flex: 0 0 30%; /* Control how much each slide occupies */
+    max-width: 30%; /* You can adjust this value */
+}
+
+/* .swiper-container {
+    overflow: hidden;
+    width: 100%;
+} */
+
+/* .swiper-slide:last-child {
+    margin-right: -15%; /* Partially show the 4th slide */
+} */
+ */
+
+</style>
+<!-- end Simple Custom CSS and JS -->
